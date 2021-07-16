@@ -9,4 +9,4 @@ Spring Data JPA has built-in methods that I can use in the Service class to get,
 ## How to Run
 1. Run the two SQL scripts; first one creates a user in SQL and grants the user permission to access the database, and the second one creates and populates the database.
 2. Run "ThymeleafdemoApplication" as a Java Application with your JRE/JDK.
-3. Access the server (http://localhost:8080) on your web browser.
+3. Access the server (http://localhost:8080 or another port, depending on your configuration) on your web browser.
