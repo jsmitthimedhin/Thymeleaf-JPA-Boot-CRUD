@@ -25,11 +25,15 @@ public class DemoController {
 }
 	
 	@GetMapping("/members")
-	public String showPage(Model model) {
+	public String showPage(Model model, String keyword) {
 		members = new ArrayList<>();
 		members = memberService.findAll();
 		
-		model.addAttribute("members", members);
+		if(keyword!=null) {
+			model.addAttribute("members", memberService.findByKeyword(keyword));
+		} else {
+			model.addAttribute("members", members);
+		}
 		return "home";
 	}
 	
