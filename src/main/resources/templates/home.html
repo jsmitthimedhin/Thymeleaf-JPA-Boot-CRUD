@@ -16,6 +16,13 @@
 			Add Member
 		</a>
 		<hr>
+		  <nav class="navbar navbar-light bg-light px-3">
+			  <form th:action="@{/members}" method="get" class="form-inline d-flex align-items-center flex-nowrap">
+			    <input id="textSearch" name="keyword" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+			    <button class="btn btn-outline-primary my-2 my-sm-0 m-2" type="submit">Search</button>
+			  </form>
+		  </nav>
+		  <br>
 		<table class="table table-bordered table-striped">
 			<thead class="table-dark">
 				<tr>
