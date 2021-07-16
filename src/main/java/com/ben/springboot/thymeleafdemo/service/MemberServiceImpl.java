@@ -40,7 +40,11 @@ public class MemberServiceImpl implements MemberService {
 	@Override
 	public void deleteMember(int memberId) {
 		memberRepository.deleteById(memberId);
-		
+	}
+
+	@Override
+	public List<Member> findByKeyword(String keyword) {
+		return memberRepository.findByKeyword(keyword);
 	}
 
 }
