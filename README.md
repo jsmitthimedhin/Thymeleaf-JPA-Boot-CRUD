@@ -1,7 +1,7 @@
 # Thymeleaf-JPA-Boot-CRUD
 This application allows users to create, read, update, and delete members in a table, built using Thymeleaf and Bootstrap on the front-end and Spring Boot's Data JPA on the backend, which is hooked up to a SQL database. Users can also search for members by keyword using the search bar.
 
-### Security Addition
+## Security Addition
 A custom login page has been created with the following roles: Employee, Manager, Admin
 
 | Id  | Password | Role(s)  |
