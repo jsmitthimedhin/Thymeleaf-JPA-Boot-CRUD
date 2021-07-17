@@ -2,6 +2,7 @@
 This application allows users to create, read, update, and delete members in a table, built using Thymeleaf and Bootstrap on the front-end and Spring Boot's Data JPA on the backend, which is hooked up to a SQL database. Users can also search for members by keyword using the search bar.
 
 Update 7/17/21
+
 *Created a branch which implements Spring Security with a login form to authenticate & authorize individuals according to roles.
 
 ## Process
