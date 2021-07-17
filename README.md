@@ -10,11 +10,6 @@ A custom login page has been created with the following roles: Employee, Manager
 | mary  | test123 | ROLE_EMPLOYEE, ROLE_MANAGER  |
 | susan  | test123 | ROLE_EMPLOYEE, ROLE_ADMIN  |
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-
 Employees can add new members.
 Managers can update and add members.
 Admins can update, delete, and add members.
