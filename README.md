@@ -4,13 +4,11 @@ This application allows users to create, read, update, and delete members in a t
 ### Security Addition
 A custom login page has been created with the following roles: Employee, Manager, Admin
 
-+---------+----------+-----------------------------+
-| user id | password |            roles            |
-+---------+----------+-----------------------------+
-| john    | test123   | ROLE_EMPLOYEE               |
-| mary    | test123   | ROLE_EMPLOYEE, ROLE_MANAGER |
-| susan   | test123   | ROLE_EMPLOYEE, ROLE_ADMIN   |
-+---------+----------+-----------------------------+
+| Id  | Password | Role(s)  |
+| ------------- | ------------- |
+| john  | test123 | ROLE_EMPLOYEE  |
+| mary  | test123 | ROLE_EMPLOYEE, ROLE_MANAGER  |
+| susan  | test123 | ROLE_EMPLOYEE, ROLE_ADMIN  |
 
 Employees can add new members.
 Managers can update and add members.
