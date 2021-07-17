@@ -1,6 +1,9 @@
 # Thymeleaf-JPA-Boot-CRUD
 This application allows users to create, read, update, and delete members in a table, built using Thymeleaf and Bootstrap on the front-end and Spring Boot's Data JPA on the backend, which is hooked up to a SQL database. Users can also search for members by keyword using the search bar.
 
+Update 7/17/21
+*Created a branch which implements Spring Security with a login form to authenticate & authorize individuals according to roles.
+
 ## Process
 The application is built using Spring initializr and allowed me to explore building on the front-end with Thymeleaf rather than JSP. It also solidified concepts of how the Spring MVC model works and how I can use Spring Data JPA (as a repository class) to do the grunt work of a DAO class without having to configure all the different methods and JDBC connection from scratch. 
 
